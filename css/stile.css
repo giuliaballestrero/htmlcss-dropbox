@@ -27,13 +27,47 @@ body {
     width: 70vw;
 }
 
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: #0061ff;
+}
+
 header .header-container {
-    height: 10vh;
-    background-color: blue;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.right-box ul{
+    display: inline-block;
+}
+
+.right-box img {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 20px;
+}
+
+header .header-container li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+header button{
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 main .intro-container {
-    background-color: aqua;
+    background-color:#b4d0e7;
 }
 
 main .intro-container .intro {

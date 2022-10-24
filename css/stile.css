@@ -165,7 +165,7 @@ main .text-box p {
 }
 
 main .vertical-card .text-box span {
-    color: gray;
+    color: grey;
     font-size: 0.7rem;
 }
 
@@ -218,8 +218,25 @@ main .fa-check {
 }
 
 main .box-partner{
-    height: 300px;
-    background-color: rgb(245, 112, 112);
+    height: 500px;
+}
+
+main .box-partner img {
+    width: 500px;
+}
+
+main .box-partner .box-partner-text {
+    padding: 2rem 2rem 0 2.5rem;
+}
+
+main .box-partner .box-partner-text p {
+    padding: 2rem 0rem 2rem 0;
+    font-size: 0.9rem;
+}
+
+main .box-partner .box-partner-text button {
+    border: 1px solid grey;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 main .dropbox-business .task-card {

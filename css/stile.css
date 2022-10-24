@@ -67,11 +67,27 @@ main .dropbox-business .task-card {
 
 main .business-info {
     height: 200px;
-    background-color: azure;
+    background-color: rgb(59, 185, 185);
 
 }
 
 main .partner-team {
     background-color: lightgreen;
     height: 400px;
+}
+
+main .free-trial {
+    background-color: lightsalmon;
+    height: 200px;
+}
+
+main .faq-box {
+    background-color: rgb(212, 32, 188);
+    height: 300px;
+}
+
+footer {
+    background-color: black;
+    height: 30vh;
+    color: #ffff;
 }

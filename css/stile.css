@@ -34,7 +34,7 @@ main .intro-container {
 }
 
 main .intro-container .intro {
-    height: 30vh;
+    height: 400px;
 }
 
 main .business-cards {
@@ -55,4 +55,23 @@ main .bcards .card{
     width: 200px;
 }
 
+main .box-partner{
+    height: 300px;
+    background-color: rgb(245, 112, 112);
+}
 
+main .dropbox-business .task-card {
+    height: 300px;
+    width: 150px;
+}
+
+main .business-info {
+    height: 200px;
+    background-color: azure;
+
+}
+
+main .partner-team {
+    background-color: lightgreen;
+    height: 400px;
+}

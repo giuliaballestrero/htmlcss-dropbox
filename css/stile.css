@@ -97,12 +97,18 @@ main article p button {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-main .business-cards {
-    background-color: lime;
+main .business-cards .business-title {
+    margin-top: 8rem;
 }
 
-main .business-cards .business-title {
-    background-color: rgb(59, 110, 59);
+main .business-cards .business-title h2{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+main .business-cards .business-title span{
+    font-size: 0.8rem;
+    padding-right: 1.5rem;
 }
 
 main .bcards {

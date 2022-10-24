@@ -120,11 +120,11 @@ main .bcards {
 
 main .bcards .vertical-card,
 main .bcards .horizontal-card{
-border: 1px solid black;
+border: 1px solid lightgrey;
 }
 
 main .bcards .vertical-card{
-    height: 700px;
+    height: 750px;
     width: calc(100% / 3);
 }
 
@@ -133,24 +133,32 @@ main .bcards .middle-card {
 }
 
 main .bcards .horizontal-card{
-    height: 240px;
+    height: 200px;
     width: 100%;
-    margin-top: 2rem;
+    margin: 2rem 0 2rem 0;
 }
 
-main .vertical-card .top-card {
+main .top-card {
     justify-content: center;
     align-items: center;
     padding: 0.5rem 0 0.5rem 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
     font-size: 0.8rem;
 }
 
-main .vertical-card .text-box {
-    padding: 2rem 1.5rem 0 1.5rem;
+main .text-box {
+    padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
-main .vertical-card .text-box p {
+main .text-box-hor {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+main .text-box h4{
+    font-size: 0.8rem;
+}
+
+main .text-box p {
     font-size: 0.8rem;
     font-weight: bold;
     padding: 1rem 0 0.5rem 0;
@@ -162,7 +170,7 @@ main .vertical-card .text-box span {
 }
 
 main .vertical-card .text-box ul {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     font-size: 0.7rem;
 }
 
@@ -170,9 +178,29 @@ main .vertical-card .text-box ul li {
    padding-top: 1rem;
 }
 
-main .vertical-card .text-box button {
-    margin: 3rem 0 2rem 0;
+main .text-box button {
+    margin: 2rem 0 3rem 0;
     width: 100%;
+}
+
+main .horizontal-card .hr-text {
+    width: 70%;
+    margin: 2rem 1rem 0 1rem;
+    font-size: 0.8rem;
+}
+
+main .horizontal-card .hr-text h4 {
+    padding: 1rem 0 1rem 0;
+}
+
+
+main .horizontal-card .top-card div.flex {
+    justify-content: space-evenly;
+}
+
+main .horizontal-card button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 hr {

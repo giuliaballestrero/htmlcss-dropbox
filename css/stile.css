@@ -1,0 +1,58 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.centered80 {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.centered70 {
+    margin: 0 auto;
+    width: 70vw;
+}
+
+header .header-container {
+    height: 10vh;
+    background-color: blue;
+}
+
+main .intro-container {
+    background-color: aqua;
+}
+
+main .intro-container .intro {
+    height: 30vh;
+}
+
+main .business-cards {
+    background-color: lime;
+}
+
+main .business-cards .business-title {
+    background-color: rgb(59, 110, 59);
+}
+
+main .bcards {
+    background-color: blueviolet;
+}
+
+main .bcards .card{
+    background-color: rgb(195, 247, 7);
+    height: 500px;
+    width: 200px;
+}
+
+

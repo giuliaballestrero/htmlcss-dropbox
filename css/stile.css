@@ -48,7 +48,7 @@ ul {
 }
 
 header {
-    height: 60px;
+    height: 80px;
     width: 100vw;
     background-color: #ffff;
     position: fixed;
@@ -59,14 +59,15 @@ header .header-container {
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
+    height: 100%;
 }
+
 
 .left-box ul{
     display: inline-block;
 }
 
 .left-box img {
-    margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     height: 20px;

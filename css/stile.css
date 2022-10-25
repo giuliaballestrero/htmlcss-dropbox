@@ -284,20 +284,72 @@ main .business-info a{
 main .partner-team .square{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-    border: 1px solid black;
     flex-wrap: wrap;
 }
 
 main .partner-team .little-square{
     height: calc(100% / 2);
     width: calc(100% / 2);
-    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+main .partner-team .little-square svg{
+    width: 50%;
 }
 
 main .square #designit{ 
     background-color: #a2d39b;
-
 }
+
+main .square #asu{ 
+    background-color: #61082b;
+}
+
+main .square #uf-florida{ 
+    background-color: #0093ce;
+}
+
+main .square #topps{ 
+    background-color:#ff1c1c;
+}
+
+main .square #wbr{ 
+    background-color: #d5001f;
+}
+
+main .square #hearst{ 
+    background-color: #b4d0e7;
+}
+
+main .square #lonely-planet{ 
+    background-color: #0d2481;
+}
+
+main .square #clear-channel{ 
+    background-color: #ffd830;
+}
+
+main .big-square{ 
+    background-color: #f5f5f5;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+
+main .big-square svg{ 
+    width: 50%;
+}
+
+main .big-square hr{ 
+    width: 20%;
+}
+
+main .big-square p{ 
+    padding-bottom: 2rem;
+}
+
 
 main .free-trial {
     background-color: lightsalmon;

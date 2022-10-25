@@ -373,9 +373,31 @@ main .free-trial div button{
 }
 
 main .faq-box {
-    background-color: rgb(212, 32, 188);
-    min-height: 500px;
+    background-color: #ffffff;
+    min-height: 550px;
+    padding-top: 5rem;
 }
+
+main .faq-box h2,
+main .faq-box p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+main .faq-box p {
+    font-size: 0.8rem;
+}
+
+main .faq-box div {
+    justify-content: space-between;
+}
+
+
+main .faq-box hr {
+    width: 100%;
+}
+
 
 footer {
     background-color: black;

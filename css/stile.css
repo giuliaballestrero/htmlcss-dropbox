@@ -281,9 +281,22 @@ main .business-info a{
     font-size: 0.8rem;
 }
 
-main .partner-team {
-    background-color: lightgreen;
-    height: 400px;
+main .partner-team .square{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+main .partner-team .little-square{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    border: 1px solid black;
+}
+
+main .square #designit{ 
+    background-color: #a2d39b;
+
 }
 
 main .free-trial {

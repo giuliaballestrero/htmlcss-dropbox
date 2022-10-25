@@ -353,13 +353,28 @@ main .big-square p{
 
 
 main .free-trial {
-    background-color: lightsalmon;
-    height: 200px;
+    background-color: #b4d0e7;
+}
+
+main .free-trial div{
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+}
+
+main .free-trial div h2{
+    font-size: 2.3rem;
+    color: #641033;
+    width: 60%;
+}
+
+main .free-trial div button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 main .faq-box {
     background-color: rgb(212, 32, 188);
-    height: 300px;
+    min-height: 500px;
 }
 
 footer {

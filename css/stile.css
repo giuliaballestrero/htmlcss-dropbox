@@ -124,7 +124,7 @@ border: 1px solid lightgrey;
 }
 
 main .bcards .vertical-card{
-    height: 750px;
+    min-height: 760px;
     width: calc(100% / 3);
 }
 
@@ -296,6 +296,7 @@ main .partner-team .little-square{
 
 main .partner-team .little-square svg{
     width: 50%;
+    filter: invert(100%);
 }
 
 main .square #designit{ 

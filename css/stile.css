@@ -102,10 +102,19 @@ main article p {
 }
 
 main article p button {
-    display: block;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+main article p button,
+main article .fa-arrow-down{
+    display: block;
+}
+
+main article .fa-arrow-down{
+    margin-top: 2rem;
+    font-size: 3rem;
 }
 
 main .business-cards .business-title {

@@ -48,17 +48,17 @@ ul {
 }
 
 header .header-container {
-    height: 9vh;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
 }
 
-.right-box ul{
+.left-box ul{
     display: inline-block;
 }
 
-.right-box img {
+.left-box img {
     margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -203,6 +203,7 @@ main .horizontal-card button {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
+
 hr {
     width: 40px;
     margin: 2rem 0 2rem 0;
@@ -239,14 +240,32 @@ main .box-partner .box-partner-text button {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-main .dropbox-business .task-card {
-    height: 300px;
-    width: 150px;
+main .dropbox-business {
+    margin-top: 3rem;
 }
+
+
+main .task-card-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+main .dropbox-business .task-card {
+    height: 400px;
+    width: calc(100% / 3 - 2rem);
+    margin-top: 2rem;
+}
+
+main .dropbox-business .task-card img{
+    width: 100%;
+}
+
 
 main .business-info {
     height: 200px;
     background-color: rgb(59, 185, 185);
+    margin-top: 5rem;
 
 }
 

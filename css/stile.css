@@ -264,9 +264,21 @@ main .dropbox-business .task-card img{
 
 main .business-info {
     height: 200px;
-    background-color: rgb(59, 185, 185);
     margin-top: 5rem;
+}
 
+main .business-info>div{
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+main .business-info h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .business-info a{
+    font-size: 0.8rem;
 }
 
 main .partner-team {

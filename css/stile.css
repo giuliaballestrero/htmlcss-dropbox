@@ -17,13 +17,11 @@ body {
     margin: 0 auto;
 }
 
-.centered65 {
-    margin: 0 auto;
+.w65 {
     width: 65vw;
 }
 
-.centered55 {
-    margin: 0 auto;
+.w55 {
     width: 55vw;
 }
 

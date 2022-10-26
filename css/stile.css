@@ -16,6 +16,11 @@ button {
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
+button:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
 ul {
     list-style-type: none;
 }
@@ -75,8 +80,9 @@ footer a {
 
 /*header*/
 header {
-    height: 80px;
+    height: 70px;
     width: 100vw;
+    min-width: 947px;
     background-color: #fff;
     position: fixed;
     z-index: 3;
@@ -96,6 +102,7 @@ header .header-container {
 .left-box img {
     padding: 0 1rem 0 1rem;
     height: 20px;
+    vertical-align: text-bottom;
 }
 
 header .header-container li{

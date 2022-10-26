@@ -147,6 +147,11 @@ main article .fa-arrow-down{
 main article .fa-arrow-down{
     margin-top: 2rem;
     font-size: 3rem;
+    transition: 1.5s;
+}
+
+main article .fa-arrow-down:hover{
+    padding-top: 2rem;
 }
 
 main .business-cards .business-title {

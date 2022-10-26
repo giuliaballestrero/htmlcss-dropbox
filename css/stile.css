@@ -321,6 +321,11 @@ main .partner-team .little-square{
     align-items: center;
 }
 
+main .little-square:hover{
+    transform: rotateY( 180deg ) ;
+    transition: transform 1.5s;
+}
+
 main .partner-team .little-square svg{
     width: 50%;
     filter: invert(100%);

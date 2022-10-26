@@ -13,6 +13,10 @@ body {
     display: flex;
 }
 
+.flex-between {
+    justify-content: space-between;
+}
+
 .centered {
     margin: 0 auto;
 }
@@ -60,7 +64,6 @@ header {
 }
 
 header .header-container {
-    justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
     height: 100%;
@@ -264,7 +267,6 @@ main .dropbox-business {
 
 
 main .task-card-container{
-    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 4rem;
 }
@@ -375,7 +377,6 @@ main .free-trial {
 }
 
 main .free-trial div{
-    justify-content: space-between;
     align-items: center;
     min-height: 300px;
 }
@@ -402,14 +403,9 @@ main .faq-box p {
     font-size: 0.8rem;
 }
 
-main .faq-box div {
-    justify-content: space-between;
-}
-
 main .faq-box hr {
     width: 100%;
 }
-
 
 footer {
     background-color: black;
@@ -419,7 +415,6 @@ footer {
 
 footer .top-footer {
     padding-top: 4rem;
-    justify-content: space-between;
 }
 
 footer .top-footer ul{

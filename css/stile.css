@@ -9,6 +9,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+button {
+    border-radius: 5px;
+    border: none;
+    padding: .5rem 1rem .5rem 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .flex {
     display: flex;
 }
@@ -29,12 +46,6 @@ body {
     width: 55vw;
 }
 
-button {
-    border-radius: 5px;
-    border: none;
-    padding: .5rem 1rem .5rem 1rem;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
 .white {
     background-color: white;
@@ -53,14 +64,8 @@ button {
     border: 1px solid #dfdfe1;
 }
 
-ul {
-    list-style-type: none;
-}
-
-header a,
-footer a {
-    text-decoration: none;
-    color: inherit;
+.bold {
+    font-weight: 700;
 }
 
 header {
@@ -83,8 +88,7 @@ header .header-container {
 }
 
 .left-box img {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem 0 1rem;
     height: 20px;
 }
 
@@ -108,7 +112,6 @@ main .intro-container .intro {
 }
 
 main article h1 {
-    font-weight: bolder;
     font-size: 3.5rem;
     padding: 3.5rem 0 2rem 0;
 }
@@ -142,7 +145,7 @@ main .business-cards .business-title h2{
 
 main .business-cards .business-title span{
     font-size: 0.8rem;
-    padding: 0 1.5rem 0 0.5rem;
+    padding: 0 1.5rem 0 .5rem;
 }
 
 main .bcards {
@@ -167,7 +170,7 @@ main .bcards .horizontal-card{
 main .top-card {
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: .5rem 0 .5rem 0;
     border-bottom: 1px solid #dfdfe1;
     font-size: 0.8rem;
 }
@@ -186,8 +189,7 @@ main .text-box h4{
 
 main .text-box p {
     font-size: 0.8rem;
-    font-weight: bold;
-    padding: 1rem 0 0.5rem 0;
+    padding: 1rem 0 .5rem 0;
 }
 
 main .vertical-card .text-box span {
@@ -195,7 +197,7 @@ main .vertical-card .text-box span {
 }
 
 main .vertical-card .text-box ul {
-    padding: 0.5rem;
+    padding: .5rem;
     font-size: 0.7rem;
 }
 
@@ -290,7 +292,6 @@ main .business-info>div{
 
 main .business-info h2{
     font-size: 2rem;
-    font-weight: bold;
 }
 
 main .business-info a{
@@ -390,7 +391,6 @@ main .faq-box {
 
 main .faq-box h2,
 main .faq-box p {
-    font-weight: 700;
     font-size: 2rem;
 }
 
@@ -420,7 +420,7 @@ footer .top-footer ul{
 
 footer hr{
     margin-top: 4rem;
-width: 100px;
+    width: 100px;
 }
 
 footer .bottom-footer {
@@ -428,5 +428,5 @@ footer .bottom-footer {
 }
 
 footer .bottom-footer span{
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 .5rem 0 .5rem;
 }

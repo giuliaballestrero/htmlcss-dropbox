@@ -30,7 +30,7 @@ body {
 button {
     border-radius: 5px;
     border: none;
-    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    padding: .5rem 1rem .5rem 1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -45,6 +45,12 @@ button {
 
 ul {
     list-style-type: none;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 header {
@@ -103,9 +109,7 @@ main article p {
 }
 
 main article p button {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 main article p button,
@@ -218,9 +222,7 @@ main .horizontal-card .top-card div.flex {
 
 main .horizontal-card button {
     margin-top: 2rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
 }
-
 
 hr {
     width: 40px;
@@ -256,7 +258,6 @@ main .box-partner .box-partner-text p {
 
 main .box-partner .box-partner-text button {
     border: 1px solid grey;
-    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 main .dropbox-business {
@@ -387,10 +388,6 @@ main .free-trial div h2{
     width: 60%;
 }
 
-main .free-trial div button{
-    padding: 0.5rem 1rem 0.5rem 1rem;
-}
-
 main .faq-box {
     background-color: #ffffff;
     min-height: 550px;
@@ -399,7 +396,7 @@ main .faq-box {
 
 main .faq-box h2,
 main .faq-box p {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2rem;
 }
 
